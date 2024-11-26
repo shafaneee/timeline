@@ -1,0 +1,68 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+header {
+  background: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #000;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.image-container img {
+  max-width: 400px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.text-container h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #333;
+}
+
+.text-container h2 {
+  font-size: 18px;
+  color: #777;
+  margin: 10px 0;
+}
+
+.text-container p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#timeline {
+  margin: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+  font-size: 14px;
+}
